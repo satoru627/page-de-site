@@ -1,0 +1,63 @@
+body{
+    background-image:url(background.jpg) ;
+    width: 100vh;
+    padding: 10px;
+    margin: 20px;
+}
+.bon {
+    position: absolute;
+    top: 90%;
+    gap: 20px;
+    display: flex;
+    left: 4%;
+    color: white;
+}
+.bon i{
+    color: white;
+}
+i:hover{
+    color: aqua;
+}
+a:hover{
+    color: aqua;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between 2px;
+    gap: 60px;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    position: absolute;
+    left: 45%;
+    top: 4%;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+h3{
+    position: absolute;
+    top: 1%;
+    color: white;
+}
+.papa{
+    position: absolute;
+    top: 30%;
+    color: white;
+}
+button{
+    padding: 8px;
+    background-color:  rgb(247, 156, 8);
+   border-radius: 20px;
+   width: 60%;
+  
+}
+/* h1{
+    font-size: 30px;
+} */
